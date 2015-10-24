@@ -6,7 +6,7 @@ import org.androidannotations.annotations.AfterViews
 import org.androidannotations.annotations.EActivity
 
 @EActivity
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

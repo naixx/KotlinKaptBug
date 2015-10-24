@@ -28,6 +28,7 @@ kapt {
     arguments {
         arg("androidManifestFile", variant.outputs[0].processResourcesTask.manifestFile)
         arg("resourcePackageName", android.defaultConfig.applicationId)
+        arg("logLevel", "trace")
     }
 }
 
