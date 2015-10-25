@@ -14,7 +14,7 @@ open class MainActivity : AppCompatActivity() {
     }
 
     @AfterViews
-    open fun afterViewsKotlin(){
+    open /*internal*/ fun afterViewsKotlin(){
 
     }
 }
